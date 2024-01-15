@@ -18,6 +18,24 @@
         margin-top: 0 ;
         margin-left: 20px;
         margin-right: 20px;
-        border-radius: 16px;
+        
+    }
+    .form {
+        padding: 16px;
+        width: 80%;
+        height: 288px;
+        flex-direction: column;
+        border-radius: 8px;
+        gap: 16px;
+    }
+    .form input {
+        
+        width: 97%;
+    }
+    .form select {
+        width: 97%;
+    }
+    .form button {
+        width: 97%;
     }
 }

@@ -46,10 +46,86 @@
 /* banner-section */
 .banner-section {
     max-width: 1170px;
-    height: 500px;
-    background-image: url(Images/Group\ \(1\)\ \(1\).png);
+    min-height: 500px;
+    background-image: linear-gradient(to right,#131318, #13131800), url(Images/Group\ \(1\)\ \(1\).png);
     margin: 0 135px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 16px;
     object-fit: cover;
     background-size: cover;
-    background-position: center;
+}
+.banner-container {
+
+    /* margin: 6.6rem 11.5rem ;
+    display: grid;
+    grid-template-columns: 1,1fr;
+    justify-items: center;
+    text-align: center;
+    justify-content: center; */
+}
+.banner-title {
+    border: 2px solid tan;
+    /* margin-top: 106px; */
+    width: 596px;
+    height: 5rem;
+    font-weight: 800; 
+    color: #fff;
+    text-align: center;
+    /* line-height: 5.02rem; */
+    justify-content: center;
+
+}
+.banner-description {
+    border: 2px solid tomato;
+    max-width: 676px;
+    height: 52px;
+    margin-top: 24px;
+    color: #fff;
+    text-align: center;
+}
+.form {
+    border: 2px solid aqua;
+    margin: 3rem auto;
+    width: 100%;
+    height: 84px;
+    background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3));
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.btn-primary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #FF5400;
+    color: #FFF;
+    gap: 10px;
+
+}
+
+.form input {
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: none;
+    height: 50%;
+    width: 21%;
+}
+.form select {
+    border-radius: 8px;
+    border: none;
+    height: 50%;
+    width: 21%;
+    
+}
+.form button {
+    border-radius: 8px;
+    border: none;
+    height: 50%;
+    width: 21%;
 }
