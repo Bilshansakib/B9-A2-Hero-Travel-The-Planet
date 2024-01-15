@@ -1,0 +1,23 @@
+
+@media screen and (max-width: 600px) {
+    .nav-section {
+        margin: 0 19px;
+        flex-direction: block;
+        
+
+    }
+    .nav-title {
+    }
+    .nav-list > ul {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .banner-section {
+        margin-top: 0 ;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: 16px;
+    }
+}
