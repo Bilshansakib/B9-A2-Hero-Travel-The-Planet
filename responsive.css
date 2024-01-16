@@ -102,5 +102,37 @@
         
 
     }
-     
+    /* perfect-place-section */
+    .perfect-place-section {
+        margin: 1050px 20px;
+        flex-direction: column;
+    }
+    .perfect-text-container {
+        width: 100%;
+    
+    }
+    .tour-image-container {
+        width: 100%;
+    }
+
+    /* deal-discount-section */
+    /* .deal-discount-section {
+        margin: o 10px;
+        max-width: 1170px;
+    }
+      */
+    /* perfect-place-section */
+    .perfect-place-section {
+    }
+    .mountain {
+        width: 276px;
+        height: 60px;
+        font-weight: 700;
+        font-size: 20px;
+        color: #fff;
+        position: absolute;
+        top: 5233px;
+        left: 100px;
+        text-align: center;
+    }
 }
