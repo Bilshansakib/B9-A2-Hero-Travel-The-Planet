@@ -15,7 +15,6 @@
     max-width: 1170px;
     min-height: 64px;
     margin: 3.18rem 8.43rem;
-    border: 2px solid #FF5400;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,7 +35,6 @@
 }
 .nav-list  {
     width: 50%;
-    border: 2px solid saddlebrown;
     
 
 }
@@ -48,8 +46,29 @@
     text-decoration: none;
     color: #424247;
 }
-/* banner-section */
 .banner-section {
+    max-width: 1170px;
+    min-height: 500px;
+    background-image: linear-gradient(to right,#131318, #13131800), url(Images/Group\ \(1\)\ \(1\).png);
+    margin: 0 135px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 16px;
+    object-fit: cover;
+    background-size: cover;
+}
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+/* banner-section */
+/* .banner-section {
     max-width: 1170px;
     min-height: 500px;
     background-image: linear-gradient(to right,#131318, #13131800), url(Images/Group\ \(1\)\ \(1\).png);
@@ -74,20 +93,24 @@
     text-align: center;
     justify-content: center; */
 }
+
 .banner-title {
-    border: 2px solid tan;
-    /* margin-top: 106px; */
+    margin-top: 106px;
     width: 596px;
     height: 5rem;
     font-weight: 800; 
     color: #fff;
     text-align: center;
-    /* line-height: 5.02rem; */
-    justify-content: center;
+
+    width: 205px;
+    height: 28px;
+    font-weight: 800;
+    font-size: 22px;
 
 }
+
 .banner-description {
-    border: 2px solid tomato;
+    margin: 32px 66px ;
     max-width: 676px;
     height: 52px;
     margin-top: 24px;
