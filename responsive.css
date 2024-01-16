@@ -163,4 +163,15 @@
         margin-left: 20px;
         object-fit: cover;
     }
+    /* footer */
+    .fa-brands {
+        margin-bottom: 16px;
+        width: 24px;
+    }
+    .footer-description {
+        min-width: 287px ;
+        text-align: center;
+    }
+    
+    
 }
